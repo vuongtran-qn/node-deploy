@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "Hello world"
-cd app
+npm i
 node index.js
