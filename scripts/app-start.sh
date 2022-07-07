@@ -1,6 +1,7 @@
 #!/bin/sh
 echo "Hello world"
-ls -al
-cd my-app/
+sudo su - ec2-user
+echo $USER
+cd /home/ec2-user/my-app/
 npm install
 pm2 start app.json
