@@ -1,6 +1,5 @@
 #!/bin/sh
 echo "Hello world"
-source ~/.bashrc
 cat ~/.bashrc
 cd app
 ls -al
