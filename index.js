@@ -7,7 +7,10 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res, next) => {
   res.render('index');
-})
+});
+app.get('/about', (req, res, next) => {
+  res.render('about');
+});
 
 app.listen(3000, () => {
   console.log("Server started!");
