@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "service node",
+      "script": "index.js",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "instances": 1,
+      "min_uptime": "20s",
+      "max_restarts": 50,
+      "exec_interpreter": "node",
+      "exec_mode": "fork"
+    }
+  ]
+}
