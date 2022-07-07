@@ -2,8 +2,9 @@
 echo "Hello world"
 sudo su - ec2-user
 cd
+pwd
 ls -al
-source .bashrc
+source ./.bashrc
 echo $USER
 cd my-app/
 npm install
