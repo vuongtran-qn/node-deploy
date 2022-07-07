@@ -12,21 +12,21 @@ permissions:
 
 hooks:
 #   ApplicationStop:
-#     - location: ./bin/app-stop
+#     - location: ./scripts/app-stop
 #       timeout: 10
 #       runas: ec2-user
 
 #   AfterInstall:
-#     - location: ./bin/install-pkgs
+#     - location: ./scripts/install-pkgs
 #       timeout: 1200
 #       runas: ec2-user
 
   ApplicationStart:
-    - location: ./bin/app-start
+    - location: ./scripts/app-start
       timeout: 60
       runas: ec2-user
 
   # ValidateService:
-  #   - location: ./bin/app-validate
+  #   - location: ./scripts/app-validate
   #     timeout: 10
   #     runas: ec2-user
