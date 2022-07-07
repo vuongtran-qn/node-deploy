@@ -10,6 +10,6 @@ permissions:
     group: ec2-user
 hooks:
   ApplicationStart:
-    - location: scripts/app-start
+    - location: /home/ec2-user/my-app/scripts/app-start
       timeout: 60
       runas: ec2-user
